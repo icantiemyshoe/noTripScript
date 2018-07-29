@@ -1,0 +1,23 @@
+graph:
+  title: 'Voltge Ride Through - Time Duration Curve'
+  x: [0, 4]
+  xLabel: 'Time (Sec)'
+  y: [0, 2]
+  yLabel: 'POI Voltage (Per Unit)'
+  noTripXY: [0.5, 0.75]
+
+lines:
+- name: 'High Voltage Duration'
+  data: [
+    [1.200, 0],
+    [1.175, .20],
+    [1.15, .5],
+    [1.10, 1]
+    ]
+- name: 'Low Voltage Duration'
+  data: [
+    [.45, 0.15],
+    [.65, 0.30],
+    [.75, 2],
+    [.9, 3]
+    ]
